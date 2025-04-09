@@ -14,10 +14,10 @@ Include the library in your project dependencies.Initialize the FlexmarkService 
 Example of injection in an XML context file:
 
 ```
-  <bean id="FlexMarkParser" class="fr.paris.lutece.plugins.flexmark.FlexMarkParser">
-    <property name="FlexMarkMarkdown" />
-    <property prefix="MD:" />
-  </bean>
+<bean id="FlexMarkParser" class="fr.paris.lutece.plugins.flexmark.FlexMarkParser">
+  <property name="name" value="FlexMarkMarkdown" />
+  <property name="prefix" value="MD:" />
+</bean>
 ```
 
 # Usage
